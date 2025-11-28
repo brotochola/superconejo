@@ -1,0 +1,29 @@
+<div id="SCqEs">
+
+    <script>
+        // Cargar animación según sea desktop o mobile
+        if (mobile == 0) {
+            $.ajax({
+                url: "scTomaMate.html?" + Math.random(),
+                success: function (html) {
+                    $("#SCqEs").html(html);
+                }
+            });
+        } else {
+            $.ajax({
+                url: "scTomaMate.swf.html?" + Math.random(),
+                success: function (html) {
+                    $("#SCqEs").html(html);
+                }
+            });
+        }
+    </script>
+
+</div>
+
+
+
+<h4 class="tituloSeccion queEs" id="tituloQueEs"></h4>
+
+<p class="queEsSC" id="textoQueEs">
+</p>

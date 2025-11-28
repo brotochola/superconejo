@@ -1,0 +1,24 @@
+# Robots.txt para SuperConejo Animaciones
+
+User-agent: *
+Allow: /
+Disallow: /localization/
+Disallow: /js/
+Disallow: /*.fla$
+Disallow: /*.swf$
+Disallow: /*.zip$
+
+# Sitemap
+Sitemap: https://www.superconejo.com.ar/sitemap.xml
+
+# Rastreadores específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /img/
+
+# Crawl-delay para bots más agresivos
+User-agent: *
+Crawl-delay: 1
+

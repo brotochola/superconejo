@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-     <url>
-         <loc>http://www.superconejo.com.ar/homenajes.php?l=en</loc>
-   </url>
-   
-     <url>
-         <loc>http://www.superconejo.com.ar/videojuegos.php?l=en</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/contacto.php?l=en</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/queEs.php?l=en</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/institucionales.php?l=en</loc>
-   </url>
-   
-   
-   
-   
-        <url>
-         <loc>http://www.superconejo.com.ar/homenajes.php?l=es</loc>
-   </url>
-   
-     <url>
-         <loc>http://www.superconejo.com.ar/videojuegos.php?l=es</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/contacto.php?l=es</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/queEs.php?l=es</loc>
-   </url>
-     <url>
-         <loc>http://www.superconejo.com.ar/institucionales.php?l=es</loc>
-   </url>
-   
-   
-   
-        <url>
-         <loc>http://www.superconejo.com.ar?l=es</loc>
-   </url>
-   <url>
-         <loc>http://www.superconejo.com.ar?l=en</loc>
-   </url>
+    <!-- Página principal -->
+    <url>
+        <loc>https://www.superconejo.com.ar/</loc>
+        <lastmod>2024-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.superconejo.com.ar/?l=es"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.superconejo.com.ar/?l=en"/>
+    </url>
+
+    <!-- Versiones en español -->
+    <url>
+        <loc>https://www.superconejo.com.ar/?l=es</loc>
+        <lastmod>2024-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Versiones en inglés -->
+    <url>
+        <loc>https://www.superconejo.com.ar/?l=en</loc>
+        <lastmod>2024-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Subdirectorio estándar -->
+    <url>
+        <loc>https://www.superconejo.com.ar/std/</loc>
+        <lastmod>2024-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
 
 </urlset>

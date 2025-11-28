@@ -49,6 +49,12 @@ function abrirVideo(video) {
   $("#popupVideo").fadeIn(0);
 }
 
+function cerrarVideo() {
+  $("#popupVideo").fadeOut(300);
+  setTimeout(() => {
+    $("#popupVideo iframe").attr("src", "");
+  }, 300);
+}
 function resizeToCover() {
   // set the video viewport to the window size
   $("#video-viewport").width(screen.width);
@@ -104,7 +110,7 @@ function seccion(cual) {
     //cargo el contenido cuando se necesita:
 
     if (cual == 3 && cargado[3] == 0) {
-      var url = "homenajes.php?l=" + language + "&v=" + Math.random();
+      var url = "homenajes.html?v=" + Math.random();
       $.ajax({
         url: url,
         success: function (html) {
@@ -120,7 +126,7 @@ function seccion(cual) {
     }
 
     if (cual == 1 && cargado[1] == 0) {
-      var url = "queEs.php?l=" + language + "&v=" + Math.random();
+      var url = "queEs.html?v=" + Math.random();
       $.ajax({
         url: url,
         success: function (html) {
@@ -135,7 +141,7 @@ function seccion(cual) {
       });
     }
     if (cual == 2 && cargado[2] == 0) {
-      var url = "institucionales.php?l=" + language + "&v=" + Math.random();
+      var url = "institucionales.html?v=" + Math.random();
       $.ajax({
         url: url,
         success: function (html) {
@@ -150,7 +156,7 @@ function seccion(cual) {
       });
     }
     if (cual == 4 && cargado[4] == 0) {
-      var url = "videojuegos.php?l=" + language + "&v=" + Math.random();
+      var url = "videojuegos.html?v=" + Math.random();
       $.ajax({
         url: url,
         success: function (html) {
@@ -166,7 +172,7 @@ function seccion(cual) {
     }
 
     if (cual == 5 && cargado[5] == 0) {
-      var url = "contacto.php?l=" + language + "&v=" + Math.random();
+      var url = "contacto.html?v=" + Math.random();
       $.ajax({
         url: url,
         success: function (html) {

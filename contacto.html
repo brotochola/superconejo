@@ -1,0 +1,54 @@
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+
+
+<div id="SCcontacto">
+
+    <script>
+        // Cargar animación de contacto
+        $.ajax({
+            url: "scAlTel.swf.html?" + Math.random(),
+            success: function (html) {
+                $("#SCcontacto").html(html);
+            }
+        });
+    </script>
+
+</div>
+
+
+
+
+<h4 class="tituloSeccion" id="tituloContacto"></h4>
+<iframe id="phps" style="position:fixed; width:0px; height:0px; display:none;" name="phps"></iframe>
+
+<form id="form1" name="form1" class="queEsSC" method="post" target="phps" action="#"
+    onsubmit="mandaMail(); return false;">
+
+    <!-- Formulario deshabilitado - solo mostrar redes sociales -->
+
+    <div id="socialLinks">
+
+        <a href="http://www.twitter.com/superconejo2D" target="_blank" class="social"><img src="img/tw.png"></a>
+        <a href="http://fb.com/superconejoanimaciones" target="_blank" class="social"><img src="img/fb.png"></a>
+        <a href="http://www.youtube.com/superconejoanimacion" target="_blank" class="social"><img src="img/yt.png"></a>
+        <a href="https://api.whatsapp.com/send?phone=5491132947799" target="_blank" class="social"><img
+                src="img/wa.png"></a>
+    </div>
+    <!-- <input name="Enviar" type="submit" value="Enviar" id="botonEnviar"> -->
+
+
+
+
+</form>
+
+<div id="formu_ok" class="queEsSC"></div>
+
+<p id="telefonoMail" class="queEsSC" style="  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;">
+    gabrielfreidkes@gmail.com // +54.911.32947799
+</p>

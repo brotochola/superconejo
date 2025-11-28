@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+     <url>
+         <loc>http://www.superconejo.com.ar/homenajes.php?l=en</loc>
+   </url>
+   
+     <url>
+         <loc>http://www.superconejo.com.ar/videojuegos.php?l=en</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/contacto.php?l=en</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/queEs.php?l=en</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/institucionales.php?l=en</loc>
+   </url>
+   
+   
+   
+   
+        <url>
+         <loc>http://www.superconejo.com.ar/homenajes.php?l=es</loc>
+   </url>
+   
+     <url>
+         <loc>http://www.superconejo.com.ar/videojuegos.php?l=es</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/contacto.php?l=es</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/queEs.php?l=es</loc>
+   </url>
+     <url>
+         <loc>http://www.superconejo.com.ar/institucionales.php?l=es</loc>
+   </url>
+   
+   
+   
+        <url>
+         <loc>http://www.superconejo.com.ar?l=es</loc>
+   </url>
+   <url>
+         <loc>http://www.superconejo.com.ar?l=en</loc>
+   </url>
+
+</urlset>

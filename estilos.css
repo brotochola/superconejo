@@ -1,0 +1,2285 @@
+.swiffy.MonstruoHeader canvas {
+  height: 420px !important;
+  top: 0px !important;
+  width: 380px !important;
+}
+
+#itemsVideojuegos.mf li:first-child {
+  background-image: url(img/juegos/progreso/mf1.jpg);
+}
+
+#itemsVideojuegos.mf li:nth-child(2) {
+  background-image: url(img/juegos/progreso/mf2.jpg);
+}
+
+#itemsVideojuegos.mf li:nth-child(3) {
+  background-image: url(img/juegos/progreso/mf3.jpg);
+}
+
+#itemsVideojuegos.pp li:nth-child(1) {
+  background-image: url(img/juegos/progreso/pp1.jpg);
+}
+#itemsVideojuegos.pp li:nth-child(2) {
+  background-image: url(img/juegos/progreso/pp2.jpg);
+}
+#itemsVideojuegos.pp li:nth-child(3) {
+  background-image: url(img/juegos/progreso/pp3.jpg);
+}
+
+#itemsVideojuegos.climaco li:nth-child(1) {
+  background-image: url(img/juegos/progreso/!climaco1.jpg);
+}
+#itemsVideojuegos.climaco li:nth-child(2) {
+  background-image: url(img/juegos/progreso/climaco1.jpg);
+}
+#itemsVideojuegos.climaco li:nth-child(3) {
+  background-image: url(img/juegos/progreso/climaco3.jpg);
+}
+
+#itemsVideojuegos li {
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+#googleplay img {
+  border: 1px #ccc solid;
+  border-radius: 9px;
+}
+
+ul#marcas li {
+  list-style: none;
+  display: inline-block;
+  width: 196px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+
+  margin: 10px;
+  background-position: top center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+ul#marcas {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  width: 91.75%;
+  background: white;
+  padding: 2%;
+  left: 4.125%;
+  right: 4%;
+  position: relative;
+  border: 1px solid #ccc;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+#socialLinks {
+  /* position: absolute; */
+  display: block;
+  bottom: 35px;
+  right: 50%;
+}
+
+#titulomf img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+}
+
+.social img {
+  width: 100%;
+  height: 100%;
+}
+
+#gire {
+  color: white;
+  position: fixed;
+  left: 0px;
+  bottom: -1px;
+  font-size: 16px;
+  z-index: 99;
+  margin-bottom: 0px;
+  background: black;
+  padding: 3%;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+#presspup {
+  background-image: url(img/juegos/presspup.jpg);
+  background-position: bottom center;
+}
+
+#titulomf {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  display: inline-block;
+  right: 206px;
+  top: 0px;
+}
+
+p.epigrafe {
+  position: relative;
+  bottom: -300px;
+  right: 0px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+}
+
+#badges {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 10px;
+  margin-right: 1.5%;
+  display: inline-block;
+  z-index: 9999;
+  /* width: auto; */
+}
+
+#appstore img,
+#googleplay img {
+  width: 100%;
+  height: auto;
+}
+
+a#appstore {
+  position: relative;
+
+  /* bottom:85px; */
+
+  margin-bottom: 10px;
+  display: inline-block;
+  /* clear: both; */
+  float: right;
+  margin-right: 1.5%;
+}
+
+a#googleplay {
+  position: relative;
+  margin-right: 1.5%;
+  /* bottom:10px; */
+
+  /* border-radius: 5px; */
+  /* border: 1px solid lightgray; */
+  /* width: 185px; */
+  float: right;
+  /* clear: both; */
+  display: inline-block;
+}
+
+#monstruoHuesos {
+  width: 380px;
+  height: 450px;
+  float: left;
+  position: absolute;
+  clear: both;
+  display: inline-block;
+  left: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.headerVideojuegos {
+  position: relative;
+  background-image: url(img/fondoCueva.jpg);
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom left;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+/*
+*{
+	transition: all 500ms ease-out;
+}*/
+
+video {
+  transition: none;
+}
+
+.swiffy {
+  z-index: 0;
+}
+
+a#retraerMenu {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 31;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.subtitulo {
+  font-size: 14px;
+  display: block;
+  text-transform: none;
+  font-weight: 100;
+  font-family: edmondsans-regular;
+
+  letter-spacing: 5px;
+  position: relative;
+
+  bottom: 8px;
+  color: #333;
+  margin-top: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Edmondsans-Regular;
+  src: url("Edmondsans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Edmondsans-Medium;
+  src: url("Edmondsans-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: Edmondsans-Bold;
+  src: url("Edmondsans-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: joint;
+  src: url("JOINTBYPIZZADUDE.ttf") format("truetype");
+}
+
+#reelSC.indexPC {
+  top: -50%;
+  position: relative;
+  background: black;
+
+  z-index: 999999999;
+}
+
+#reelSC.indexMobile {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+#video-viewport {
+  z-index: -1;
+  /* overflow: hidden; */
+
+  position: relative;
+
+  left: -50%;
+  margin: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#video-viewport-wrapper {
+  position: fixed;
+  left: 50%;
+  display: table;
+  top: 50%;
+  height: 100%;
+  display: inline-block;
+  /* width: 100%; */
+}
+
+#efectoNegro {
+  background: transparent url(img/pattern.png) repeat top left;
+  opacity: 01;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  /* display: none; */
+}
+body,
+html {
+  margin: 0px;
+  overflow-y: auto !important;
+  height: auto !important;
+}
+
+body {
+  background: black;
+}
+#home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: white;
+  height: 70px;
+  border-bottom: 1px #cccccc solid;
+  z-index: 100;
+  /*box-shadow: 0px 0px 10px rgba(0,0,0,0.35);*/
+  z-index: 99999999999;
+  transition: all 500ms;
+  opacity: 0.9;
+}
+
+.ytp-thumbnail.html5-stop-propagation {
+  background-position: bottom center !important;
+}
+.textoSeparador {
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 10%;
+  position: relative;
+  font-family: edmondsans-medium;
+  font-size: 14px;
+}
+
+.separador:hover {
+  /*
+animation: gordito 500ms;
+-webkit-animation: gordito 500ms;*/
+}
+
+nav:hover {
+  opacity: 1 !important;
+}
+
+@-webkit-keyframes gordito {
+  0% {
+    width: 250px;
+    height: 250px;
+    bottom: 0px;
+  }
+  20% {
+    width: 300px;
+    height: 300px;
+    bottom: 25px;
+  }
+  40% {
+    width: 220px;
+    height: 220px;
+    bottom: -15px;
+  }
+
+  100% {
+    width: 250px;
+    height: 250px;
+    bottom: 0px;
+  }
+}
+
+.separador {
+  background: #0a6c38 !important;
+  transition: all 100ms;
+  height: 290px;
+  width: 290px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  color: white;
+  border-radius: 100%;
+  display: table;
+  overflow: hidden;
+
+  transition: all 450ms cubic-bezier(0.5, -0.5, 0.5, 1.5);
+
+  /* left: -90%; */
+
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  opacity: 0.2;
+}
+
+.separador.dale {
+  /* left:0%; */
+  -webkit-transform: scale(1);
+  opacity: 1;
+}
+
+#climaco {
+  background-image: url(img/juegos/capturaClimaco.jpg);
+  background-position: left top;
+}
+
+#trailerPP,
+#trailerClimaco {
+  /* margin: 0px; */
+
+  /* padding-right: 2%; */
+  width: 92%;
+}
+
+#menu * {
+  transition: all 122ms;
+}
+
+#menu {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  height: 40px;
+  /* vertical-align: middle; */
+  top: 15px;
+  position: relative;
+}
+
+#menu li {
+  display: inline-block;
+  height: 100%;
+
+  padding-left: 1.15%;
+  padding-right: 1.15%;
+  border-left: 1px solid #cccccc;
+  vertical-align: middle;
+}
+
+#menu li#espacio {
+  width: auto;
+  border: none !important;
+}
+#menu li#eng,
+#menu li#esp {
+  right: 0px;
+  border: none;
+  padding: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+  text-align: center;
+  float: right;
+}
+
+#menu li#esp {
+  right: 60px;
+}
+
+h4.queEs {
+  color: #ff9900;
+}
+p#telefonoMail {
+  font-family: edmondsans-regular;
+  width: 600px;
+  margin-top: 85px;
+  float: right;
+  /* min-width: 500px; */
+  margin-right: 20px;
+  text-align: right;
+  font-size: 20px;
+  z-index: 9999999;
+  position: relative;
+  color: white;
+  /* text-shadow: 1px 1px 2px rgba(0,0,0,1); */
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+  font-weight: 200;
+}
+
+#menu li#logo {
+  width: 102px;
+  padding-left: 0px !important;
+}
+
+.botonesNav {
+  font-family: Edmondsans-Regular;
+  line-height: 57px;
+  height: 31px;
+  display: table-cell;
+  bottom: 8px;
+  position: relative;
+  font-weight: 100;
+  color: rgb(155, 155, 155);
+  transition: color 100ms;
+}
+
+#botonNav8 {
+  bottom: 5px !important;
+  /* position:relative; */
+}
+
+#menuDesplegado a.botonesNav {
+  font-family: Edmondsans-Regular;
+  line-height: 14px !important;
+  height: 20px;
+  display: block;
+  text-align: right !important;
+  font-size: 14px !important;
+  bottom: 0px;
+  position: relative;
+  font-weight: 100;
+  color: rgb(155, 155, 155);
+  transition: color 100ms;
+  text-transform: uppercase;
+
+  width: 100%;
+  padding-bottom: 18px;
+  padding-top: 17px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* z-index: 9999999999999999999; */
+}
+
+a.botonesNav:hover,
+a.botonesNav.activo {
+  color: black;
+
+  /* font-size: 24px; */
+  /* letter-spacing: -4px; */
+  /* top: -9px; */
+  /* display: table-cell; */
+}
+
+#menu a#eng,
+#menu a#esp {
+  border-radius: 999px;
+  border: 3px solid #ccc;
+  height: 40px;
+  width: 40px;
+  text-transform: uppercase;
+  font-family: edmondsans-medium;
+  font-weight: 100;
+  margin: auto 0;
+  position: relative;
+  text-align: center;
+  float: right;
+  margin-right: 1.15%;
+  bottom: 3px;
+  font-size: 14px;
+  transition: all 100ms;
+}
+
+#menu a#eng:not(.active):hover,
+#menu a#esp:not(.active):hover {
+  background-color: #ccc;
+  color: white;
+}
+
+#menu a#esp span,
+#menu a#eng span {
+  margin: auto 0;
+  position: relative;
+  top: 12px;
+  text-align: center;
+}
+
+#menu li#queEsSC {
+  border: none;
+}
+
+.textoVideojuegos,
+.textoFiestas {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  float: right;
+  position: relative;
+  /* top: 16%; */
+  margin-right: 1.5%;
+  text-align: right;
+  color: white;
+  /* text-transform: uppercase; */
+  font-family: edmondsans-regular;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5%;
+  font-size: 20px;
+  display: block;
+  clear: both;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-right: 1%;
+  padding-left: 1%;
+  z-index: 999999;
+  width: auto;
+  max-width: 44%;
+}
+
+.textoFiestas {
+  position: absolute;
+
+  right: 0%;
+  bottom: 7px;
+}
+
+img#logo {
+  width: 100px;
+  position: relative;
+  bottom: 8px;
+  left: 12px;
+  transition: all 1400ms ease-out;
+}
+
+img#logo:hover {
+  -webkit-transform: rotate(1440deg);
+}
+
+#circuloWrapper {
+  position: fixed;
+  left: 50%;
+
+  top: 50%;
+
+  display: table;
+
+  z-index: 9999;
+
+  width: 1px;
+
+  height: 1px;
+}
+#circuloHome {
+  position: relative;
+
+  overflow: hidden;
+  width: 480px;
+  height: 480px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 100%;
+  top: -200px;
+  left: -50%;
+  /* right: -50%; */
+  z-index: 38;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  /* vertical-align: top; */
+}
+
+h3 b {
+  font-weight: 800;
+}
+h3 {
+  font-family: Edmondsans-regular;
+  color: #555;
+  font-size: 14px;
+  width: 79%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+#sliderHome {
+  position: relative;
+  width: 1000px;
+  display: block;
+}
+#sliderHome div {
+  display: block;
+  float: left;
+  width: 480px;
+  transition: none;
+}
+
+h1 {
+  font-size: 66px;
+  margin: 0;
+  line-height: 46px;
+  font-family: edmondsans-bold;
+  font-weight: bold;
+
+  color: #555;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  font-family: edmondsans-regular;
+  color: #555;
+  margin: 0;
+  font-weight: 100;
+}
+
+#welcome {
+  position: relative;
+  top: 130px;
+  /* margin: auto 0; */
+}
+
+hr {
+  height: 1px;
+  width: 91%;
+
+  color: #555;
+  background-color: #ccc;
+  border: none;
+}
+
+#menu a.active {
+  color: white;
+  background-color: #0a6c38;
+  border-color: #0a6c38 !important;
+}
+
+#contacto {
+  display: none;
+}
+
+.contenidos {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  height: auto;
+  left: 0px;
+  top: 0px;
+
+  display: none;
+  padding-top: 70px;
+
+  /* text-align: center; */
+}
+
+.contenidos.activo {
+  display: block;
+  opacity: 1;
+  z-index: 9;
+
+  /* padding-bottom: 100px; */
+
+  overflow-y: hidden;
+  min-height: 100%;
+}
+#home {
+  display: block;
+}
+#seccion0 {
+  overflow: hidden !important;
+  position: fixed;
+}
+
+#seccion1 {
+  background-image: url(img/fondoSeccion1.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#seccion5 {
+  background-image: url(img/madriguera.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#seccion3,
+#seccion2 {
+  height: auto;
+  text-align: center;
+  /* overflow-y: scroll; */
+  /* background-image: url(img/fondo2.jpg); */
+}
+
+#botonera {
+  position: relative;
+  top: 45px;
+
+  height: 20px;
+  display: inline-block;
+}
+
+#botonera a {
+  background-image: url(img/bullets.png);
+  width: 22px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  background-position: bottom;
+  transition: none;
+}
+
+#botonera a.activo {
+  background-position: top;
+  top: 2px;
+}
+
+#AVE {
+  /* top: 70px; */
+
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 450px;
+  display: inline-block;
+  /* float: left; */
+  z-index: 10;
+  padding-left: 2%;
+  padding-right: 2%;
+  /* border: 1px white solid; */
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#masVideos {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+  z-index: 999;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: edmondsans-bold;
+  text-transform: uppercase;
+}
+
+.tituloSeccion {
+  right: 0px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 11px;
+  font-size: 228%;
+  font-weight: 800;
+  line-height: 80%;
+  text-align: right;
+  z-index: 9999999999;
+  position: relative;
+  padding: 1%;
+  color: white;
+  /* text-shadow: 1px 1px 2px rgba(0,0,0,0.4); */
+  background: rgba(0, 0, 0, 0.7);
+  margin-right: 20px;
+  margin-bottom: 1%;
+  /* width: 39%; */
+  display: table;
+  text-align: right;
+}
+
+#AVE {
+  width: 100%;
+}
+
+form,
+#telefonoMail,
+#formu_ok,
+form *,
+#reelSC,
+#formu_posta,
+iframe,
+p,
+h1,
+h2,
+h3,
+h4,
+.contenidosInner,
+.contenidos,
+.videosHomenajes,
+#masVideos,
+#AVE,
+.cartelitoLink,
+h5 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+p#telefonoMail {
+  color: white;
+  font-family: edmondsans-medium;
+  font-size: 17px;
+  clear: both;
+  position: fixed;
+  padding: 1%;
+  float: right;
+  margin: 0px;
+  margin-right: 20px;
+  bottom: 0px;
+  right: 0px;
+}
+#botonEnviar {
+  clear: both;
+  float: right;
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-family: edmondsans-bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+  /* text-align: left; */
+}
+#botonEnviar:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+
+.titulosFormu {
+  width: 20%;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  clear: both;
+}
+
+.inputsFormu {
+  padding: 0px;
+  margin: 0px;
+
+  width: 75%;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+
+  top: -26px;
+
+  font-size: 18px;
+  font-family: edmondsans-regular;
+  font-weight: 100;
+}
+
+label.error {
+  color: #ff9900;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  /* width:100%; */
+  clear: both;
+  bottom: 29px;
+  position: relative;
+  font-size: 15px;
+  float: right;
+}
+
+#form1 {
+  height: max-content;
+  padding: 11px;
+  width: max-content;
+}
+
+#formu_ok {
+  display: none;
+  margin-top: 140px;
+}
+
+.queEsSC {
+  font-family: edmondsans-regular;
+  width: 600px;
+  /* margin-top: 85px; */
+  float: right;
+  /* min-width: 500px; */
+  margin-right: 20px;
+  text-align: right;
+  font-size: 20px;
+  z-index: 9999999;
+  position: relative;
+  color: white;
+  /* text-shadow: 1px 1px 2px rgba(0,0,0,1); */
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1%;
+  font-weight: 200;
+}
+
+#detalle {
+  float: right;
+  height: 135px;
+}
+
+canvas {
+  overflow: visible;
+  height: 100% !important;
+  pointer-events: none;
+  touch-action: none;
+  transition: none !important;
+}
+
+p {
+  font-family: edmondsans-regular;
+  font-size: 14px;
+  color: #555;
+}
+.textoSeccion {
+  width: 100%;
+  text-align: right;
+  font-family: edmondsans-regular;
+  font-size: 13px;
+  position: absolute;
+  margin: 0 auto;
+  display: table-cell;
+  padding: 2%;
+  vertical-align: bottom;
+
+  color: white;
+  bottom: 0px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#popupVideo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999999999999999;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#popupVideo iframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 13%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#popupVideo a,
+#cerrarGaleria {
+  color: white;
+  text-decoration: none;
+  font-size: 126px;
+  font-family: edmondsans-bold;
+  float: right;
+  right: -18px;
+  top: -15px;
+  position: fixed;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+
+  z-index: 99;
+  font-family: edmondsans-bold;
+  margin: 0px;
+  line-height: 1;
+  padding: 30px;
+}
+#popupVideo a:hover,
+#cerrarGaleria:hover {
+  color: #d9ac23;
+}
+
+.videosHomenajes {
+  width: 33.3%;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  height: 200px;
+  background-size: cover;
+  z-index: 99;
+  border: 1px solid white;
+  background-position: 50% 38%;
+  transition: all 100ms;
+  overflow: hidden;
+  /* min-width: 200px; */
+  display: inline-block;
+  transition: all 400ms ease-out;
+}
+
+#linkScrollUp {
+  opacity: 0.6;
+}
+
+a.videosHomenajes:hover {
+  /*	background-position:bottom;*/
+  /* background-size: 150% auto; */
+  /* transition: all 400ms; */
+}
+a.videosHomenajes:hover div.cartelitoLink {
+  top: 80%;
+}
+.cartelitoLink {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  vertical-align: bottom;
+  z-index: 999999999;
+  top: 100%;
+  transition: all 100ms;
+  color: white;
+
+  font-family: edmondsans-regular;
+  text-align: left;
+  padding: 2%;
+  font-size: 12px;
+  line-height: 12px;
+  padding-top: 3%;
+}
+
+#sliderHomenajes {
+  position: relative;
+  display: block;
+
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px #ccc solid;
+  -webkit-animation: animaHomenajes 20s infinite;
+  animation: animaHomenajes 20s infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: none !important;
+}
+
+#reelNoSoc {
+  position: relative;
+  display: block;
+
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px #ccc solid;
+}
+
+#sliderHomenajes div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  display: none;
+  left: 0px;
+  top: 0px;
+
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+}
+
+@-webkit-keyframes animaHomenajes {
+  0% {
+    background-image: url(img/homenajes/1.jpg);
+  }
+  10% {
+    background-image: url(img/homenajes/1.jpg);
+  }
+  10.0001% {
+    background-image: url(img/homenajes/2.jpg);
+  }
+  20% {
+    background-image: url(img/homenajes/2.jpg);
+  }
+  20.0001% {
+    background-image: url(img/homenajes/3.jpg);
+  }
+  30% {
+    background-image: url(img/homenajes/3.jpg);
+  }
+  30.0001% {
+    background-image: url(img/homenajes/4.jpg);
+  }
+  40% {
+    background-image: url(img/homenajes/4.jpg);
+  }
+  40.0001% {
+    background-image: url(img/homenajes/5.jpg);
+  }
+  50% {
+    background-image: url(img/homenajes/5.jpg);
+  }
+  50.0001% {
+    background-image: url(img/homenajes/6.jpg);
+  }
+  60% {
+    background-image: url(img/homenajes/6.jpg);
+  }
+  60.0001% {
+    background-image: url(img/homenajes/7.jpg);
+  }
+  70% {
+    background-image: url(img/homenajes/7.jpg);
+  }
+  70.0001% {
+    background-image: url(img/homenajes/8.jpg);
+  }
+  80% {
+    background-image: url(img/homenajes/8.jpg);
+  }
+  80.0001% {
+    background-image: url(img/homenajes/9.jpg);
+  }
+  90% {
+    background-image: url(img/homenajes/9.jpg);
+  }
+  90.0001% {
+    background-image: url(img/homenajes/10.jpg);
+  }
+  100% {
+    background-image: url(img/homenajes/10.jpg);
+  }
+}
+
+@keyframes animaHomenajes {
+  0% {
+    background-image: url(img/homenajes/1.jpg);
+  }
+  10% {
+    background-image: url(img/homenajes/1.jpg);
+  }
+  10.0001% {
+    background-image: url(img/homenajes/2.jpg);
+  }
+  20% {
+    background-image: url(img/homenajes/2.jpg);
+  }
+  20.0001% {
+    background-image: url(img/homenajes/3.jpg);
+  }
+  30% {
+    background-image: url(img/homenajes/3.jpg);
+  }
+  30.0001% {
+    background-image: url(img/homenajes/4.jpg);
+  }
+  40% {
+    background-image: url(img/homenajes/4.jpg);
+  }
+  40.0001% {
+    background-image: url(img/homenajes/5.jpg);
+  }
+  50% {
+    background-image: url(img/homenajes/5.jpg);
+  }
+  50.0001% {
+    background-image: url(img/homenajes/6.jpg);
+  }
+  60% {
+    background-image: url(img/homenajes/6.jpg);
+  }
+  60.0001% {
+    background-image: url(img/homenajes/7.jpg);
+  }
+  70% {
+    background-image: url(img/homenajes/7.jpg);
+  }
+  70.0001% {
+    background-image: url(img/homenajes/8.jpg);
+  }
+  80% {
+    background-image: url(img/homenajes/8.jpg);
+  }
+  80.0001% {
+    background-image: url(img/homenajes/9.jpg);
+  }
+  90% {
+    background-image: url(img/homenajes/9.jpg);
+  }
+  90.0001% {
+    background-image: url(img/homenajes/10.jpg);
+  }
+  100% {
+    background-image: url(img/homenajes/10.jpg);
+  }
+}
+
+h5 {
+  font-family: edmondsans-regular;
+  color: #0a6c38;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+#empresasDibujitos {
+  font-family: edmondsans-bold;
+  color: #0a6c38;
+  font-size: 48px;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+#sombraAbajo {
+  background-image: url(img/sombraAbajo.png);
+  width: 100%;
+  display: inline-block;
+  z-index: 9999;
+  position: relative;
+  height: 50px;
+  background-size: 100% auto;
+}
+
+#flechaAbajo {
+  position: relative;
+  bottom: 5px;
+
+  margin-bottom: 40px;
+}
+
+#sliderMF {
+  animation: fondosMF 10000ms infinite;
+  -webkit-animation: fondosMF 10000ms infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fondosMF {
+  0% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+  30% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+  34% {
+    background-image: url(img/juegos/mfIpad2.jpg);
+  }
+  60% {
+    background-image: url(img/juegos/mfIpad2.jpg);
+  }
+  67% {
+    background-image: url(img/juegos/mfIpad3.jpg);
+  }
+  97% {
+    background-image: url(img/juegos/mfIpad3.jpg);
+  }
+  100% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+}
+
+/* Chrome, Safari, Opera */
+@keyframes fondosMF {
+  0% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+  30% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+  34% {
+    background-image: url(img/juegos/mfIpad2.jpg);
+  }
+  60% {
+    background-image: url(img/juegos/mfIpad2.jpg);
+  }
+  67% {
+    background-image: url(img/juegos/mfIpad3.jpg);
+  }
+  97% {
+    background-image: url(img/juegos/mfIpad3.jpg);
+  }
+  100% {
+    background-image: url(img/juegos/mfIpad.jpg);
+  }
+}
+
+.slider {
+  position: relative;
+  height: 550px;
+
+  /* width:100%; */
+
+  margin: 4%;
+  border: 1px solid #ccc;
+  margin-top: 100px;
+
+  background-size: cover;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  margin-bottom: 200px;
+}
+
+#fotosNovios {
+  background-image: url(img/novios.jpg);
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  left: 0px;
+  margin: 0;
+}
+
+#itemsComunicacion,
+#itemsVideojuegos {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 500px; */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 40px;
+}
+
+#itemsComunicacion li *,
+#itemsVideojuegos * {
+  transition: all 400ms ease-out;
+
+  /* height: auto; */
+}
+
+#itemsComunicacion li,
+#itemsVideojuegos li {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+
+  box-sizing: border-box;
+  width: 31%;
+  list-style: none;
+  display: inline-table;
+  height: 390px;
+  /* position: relative; */
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  /* clear: both; */
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1.5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  min-height: 319px;
+}
+
+h6 {
+  font-family: edmondsans-medium;
+  font-size: 24px;
+  font-weight: 100;
+
+  margin: 0;
+  margin-top: 10px;
+  color: #555;
+}
+
+#itemsVideojuegos li {
+  height: 300px !important;
+  display: inline-flex;
+  background-position: bottom;
+}
+
+#itemsComunicacion li p {
+  text-align: justify;
+  padding-bottom: 5%;
+}
+#menuMobile:hover {
+  cursor: pointer;
+}
+#menuMobile {
+  display: none !important;
+
+  border: none !important;
+
+  width: 44px;
+  float: right;
+
+  position: absolute;
+  right: 19px;
+
+  top: -4px;
+  margin: 0px;
+  clear: both;
+  height: 31px !important;
+  background-image: url(img/menu.jpg);
+  z-index: 99999;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* padding: 5px; */
+}
+#menuDesplegado {
+  position: absolute;
+  width: 190px;
+  height: 233px;
+  border: 1px #ccc solid;
+
+  top: -350px;
+  border-top-color: #ccc;
+  right: 0px;
+  background: white;
+  border-right: none;
+  display: none;
+  z-index: 90;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+#SCqEs,
+#SCcontacto {
+  float: left;
+  position: absolute;
+  background: transparent;
+
+  z-index: 9999;
+
+  /* margin-left: 10px; */
+  bottom: 0px;
+}
+#SCcontacto {
+  height: 100%;
+  width: 100%;
+  left: -32%;
+}
+
+#seccion2,
+#seccion3 {
+  background-image: url(img/symphony.jpg);
+  /* background-color: #c4e7dd; */
+}
+
+#seccion4 {
+  background-image: url(img/fondoVideojuegos.jpg);
+  text-align: center;
+  overflow-y: auto;
+}
+#SCqEs {
+  width: 600px;
+  height: 100%;
+}
+
+input,
+textarea {
+  color: black;
+  font-family: edmondsans-regular;
+  font-size: 20px;
+}
+
+#formu_posta {
+  float: right;
+  position: relative;
+  width: 50%;
+  font-family: edmondsans-regular;
+  color: white;
+  z-index: 999999999;
+}
+
+@media (max-width: 1000px) {
+  
+.social {
+  width: 50px;
+  height: 50px;
+
+}
+  #sliderHomenajes {
+    height: 350px;
+  }
+  .textoFiestas,
+  .textoVideojuegos {
+    font-size: 15px;
+  }
+
+  ul#marcas {
+    width: 96%;
+    left: 2%;
+    right: 2%;
+  }
+  ul#marcas li {
+    width: 20%;
+    margin: 10px;
+    padding: 0px;
+    height: 20%;
+  }
+
+  p.epigrafe {
+    height: 30px;
+  }
+
+  nav {
+    height: 50px;
+    opacity: 0.9;
+  }
+
+  #itemsComunicacion,
+  #itemsVideojuegos {
+    margin-bottom: 10px;
+  }
+
+  #socialLinks {
+    right: 20%;
+    bottom: 40px;
+  }
+  #popupVideo a {
+    font-size: 70px;
+    /* right:15px; */
+  }
+  #reelSC {
+  }
+  .headerVideojuegos {
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  #monsterfix {
+    height: 450px;
+  }
+
+  .slider {
+    margin-left: 1.5%;
+    margin-top: 0px;
+    margin-right: 1.5%;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+
+  .separador {
+    margin-bottom: 100px;
+  }
+
+  #titulomf {
+    /* width:250px; */
+
+    /* height: 87px; */
+    /* display: table; */
+    right: 0px;
+    top: -100px;
+    width: 200px;
+  }
+
+  .subtitulo {
+    letter-spacing: 1px;
+    bottom: 0px;
+  }
+
+  label.error {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 24px;
+  }
+
+  #form1 {
+    /* background: none; */
+    /* margin: 0px; */
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:25px;
+  }
+
+  .titulosFormu {
+    text-shadow: 1px 1px 2px black;
+    font-weight: 800;
+    width: 58%;
+  }
+
+  .inputsFormu {
+    width: 40%;
+    float: right;
+
+    top: -24px;
+  }
+
+  #telefonoMail {
+    font-size: 14px !important;
+    margin: 0px !important;
+    font-weight: 100 !important;
+    font-family: edmondsans-regular !important;
+    text-align: center !important;
+    width: 100% !important;
+    background: black !important;
+  }
+
+  #SCqEs
+  {
+    display: inline-block;
+
+    height: 90%;
+    width: 100%;
+  }
+   #SCcontacto{
+     position:absolute;
+     width: 200vw;
+     /* height: auto; */
+     left: -62vw;
+     /* transform: translateX(-50%); */
+     top: 2vh;
+   }
+
+  .queEsSC {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 53px !important;
+  }
+  #formu_ok {
+  }
+
+  h4.tituloSeccion {
+    margin-right: 1.5%;
+    font-size: 24px !important;
+    line-height: 100% !important;
+  }
+
+  a.videosHomenajes {
+    width: 50%;
+  }
+  #itemsComunicacion li,
+  #itemsVideojuegos li {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    min-height: 0px;
+  }
+  h5 {
+    font-size: 27px;
+    font-weight: 800;
+    font-family: edmondsans-bold;
+    line-height: 100%;
+
+    margin-top: 20px;
+  }
+  .iconosComu {
+    width: 43%;
+    float: left;
+    text-align: left;
+  }
+  h6.tituloComu {
+    float: right;
+    width: auto;
+    text-align: right;
+    top: 40px;
+    position: relative;
+    font-size: 22px;
+
+    padding-right: 1.5%;
+  }
+  #itemsComunicacion li p {
+    width: 100%;
+    clear: both;
+
+    top: 10px;
+    position: relative;
+    padding: 1%;
+    padding-bottom: 5%;
+  }
+  #menu li.itemsMenu {
+    display: none;
+  }
+
+  #menu a {
+    float: left !important;
+    bottom: 10px !important;
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+  }
+  #menu a span {
+    top: 9px !important;
+  }
+  .contenidos {
+    padding-top: 50px;
+  }
+  #menuMobile {
+    display: inline-block !important;
+  }
+  #menuDesplegado {
+    display: block !important;
+  }
+  #reelNoSoc {
+    height: 320px;
+  }
+  #AVE {
+    height: 300px;
+  }
+  a.videosHomenajes:last-child {
+    display: none;
+  }
+
+  #circuloHome {
+    transform: scale(0.62);
+    /* left:-80px; */
+    /* top:-85px; */
+  }
+  #botonEnviar {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  }
+}
+
+@media (max-width: 479px) {
+  a.videosHomenajes {
+    width: 100%;
+  }
+  #AVE {
+    height: 200px;
+  }
+  a.videosHomenajes:last-child {
+    display: inline-block;
+  }
+  #circuloHome {
+    transform: scale(0.63);
+    /* left:-80px; */
+    /* top:-5px; */
+  }
+}
+
+/* iphone horizontal */
+@media (max-width: 600px) and (max-height: 360px) {
+  #socialLinks {
+    right: 64%;
+    bottom: 20px;
+  }
+
+  #sliderHomenajes {
+    height: 270px;
+  }
+
+  .textoFiestas {
+    max-width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    text-align: justify;
+    padding: 5px;
+    line-height: 16px;
+  }
+
+  #popupVideo iframe {
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+  }
+  #gire {
+    display: none;
+  }
+
+  #detalle {
+    height: 50px;
+  }
+
+  #form1 {
+    margin-top: 0px !important;
+  }
+
+  #tituloContacto {
+    display: none !important;
+  }
+
+  #botonEnviar {
+    width: auto;
+    margin: 0px;
+  }
+
+  .titulosFormu {
+    width: 20%;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-weight: 800;
+    margin: 0px;
+  }
+  label.error {
+    text-align: right;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    width: 85%;
+    float: right;
+    margin: 0px;
+  }
+
+  .inputsFormu {
+    width: 85%;
+  }
+
+  #emailFormu {
+  }
+
+  #circuloHome {
+    /*width:300px;
+		height:300px;
+		top:20%;*/
+    transform: scale(0.54);
+
+    /* top:-105px; */
+  }
+  #SCqEs,
+  #SCcontacto {
+    display: none;
+  }
+
+  h4.tituloSeccion {
+    /* color:black; */
+    /* margin-top:20px; */
+    /* margin-bottom:20px !important; */
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 3590px) {
+  p#telefonoMail {
+    font-size: 11px !important;
+  }
+}
+/* iphone vertical */
+@media (max-height: 668px) and (max-width: 380px) {
+  ul#marcas {
+    height: 350px;
+  }
+
+  .textoFiestas {
+    max-width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    text-align: justify;
+    padding: 5px;
+    line-height: 16px;
+  }
+
+  ul#marcas li {
+    width: 40%;
+    height: 12%;
+  }
+  #socialLinks {
+    right: 6%;
+    bottom: 40px;
+  }
+  #gire {
+    display: block;
+    font-size: 13px;
+  }
+  .scAlTel {
+    bottom:50px;
+    position:relative;
+        width: 139vw !important;
+    height: auto !important;
+    margin: 0;
+    padding: 0px !important;
+  }
+  #form1 {
+    /* margin-top: 10px !important; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 21px;
+  }
+  #detalle {
+    height: 90px;
+  }
+
+  #popupVideo iframe {
+    width: 100%;
+    left: 0%;
+  }
+
+  #badges {
+    width: 80%;
+  }
+
+  #appstore,
+  #googleplay {
+    width: 50%;
+  }
+  #titulomf {
+    width: 53%;
+    top: -79px;
+  }
+
+  #headerMonstruoMobile {
+    position: absolute;
+    left: 0px;
+  }
+
+  #monstruoHuesos {
+    right: 46px;
+    /* height: 100%; */
+    /* width: 110%; */
+    /* position: relative; */
+    /* top: -53px; */
+    left: auto;
+    /* height: 100px; */
+    /* width: 300px; */
+  }
+
+  .textoVideojuegos,
+  .textoFiestas {
+    font-size: 15px;
+  }
+
+  #botonEnviar {
+    width: 100%;
+    text-align: left;
+  }
+
+  .titulosFormu {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  label.error {
+    bottom: 11px;
+
+    /* float: right; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .inputsFormu {
+    width: 100%;
+    top: 0px;
+    margin-bottom: 10px;
+  }
+
+  #circuloHome {
+    /*width:300px;
+		height:300px;
+		top:20%;*/
+    transform: scale(0.6);
+
+    /* top:-105px; */
+  }
+
+    #SCcontacto {
+    width:140vw;
+    bottom: 60px;
+    overflow: visible;
+  }
+  
+  #SCqEs{
+    display: none;
+  }
+
+  h4.tituloSeccion {
+    /* color:black; */
+    /* margin-top:20px; */
+    /* margin-bottom:20px !important; */
+
+    /* text-align: center; */
+    /* padding-left: 20px; */
+
+    /* width: 100%; */
+    /* padding: 0px; */
+    font-size: 22px !important;
+
+    margin-right: 0px;
+    padding-right: 5%;
+  }
+}
+
+/* ipad vertical */
+@media (width: 768px) and (height: 1024px) {
+  #sliderHomenajes {
+    height: 600px;
+  }
+
+  #socialLinks {
+    right: 65%;
+    bottom: 51px;
+  }
+
+  #botonEnviar {
+    font-size: 40px;
+  }
+  .titulosFormu {
+    width: 15% !important;
+  }
+  .inputsFormu {
+    width: 80%;
+  }
+
+  #popupVideo iframe {
+    width: 100%;
+    left: 0%;
+  }
+
+  #gire {
+    display: block;
+  }
+
+  label.error {
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1%;
+  }
+
+  .titulosFormu {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    font-size: 26px;
+  }
+
+  .inputsFormu {
+    top: -30px !important;
+  }
+  #circuloHome {
+    transform: scale(1.4);
+  }
+  h4.tituloSeccion {
+    font-size: 31px !important;
+    margin-top: 20px;
+  }
+  #SCqEs,
+  #SCcontacto {
+    display: inline-block;
+
+    height: 500px;
+    width: 100%;
+  }
+  .queEsSC {
+    margin-top: 80px !important;
+    font-size: 25px !important;
+  }
+  #seccion1 {
+    background-position: right;
+  }
+}
+
+/* ipad horizontal */
+@media (height: 768px) and (width: 1024px) {
+  #itemsComunicacion li {
+    height: 430px;
+  }
+
+  ul#marcas li {
+    width: 21.5%;
+    height: 24%;
+    margin: 8px;
+  }
+
+  #SCqEs,
+  #SCcontacto {
+    margin-left: -50px;
+  }
+  #popupVideo iframe {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  #gire {
+    display: none;
+  }
+}
+
+/* diversos aparatos, tablets verticales*/
+@media (min-height: 600px) and (max-height: 767px) and (min-width: 321px) and (max-width: 767px) {
+  .textoFiestas {
+    max-width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    text-align: justify;
+    padding: 5px;
+    line-height: 16px;
+  }
+  #appstore,
+  #googleplay {
+    width: 30%;
+
+    vertical-align: bottom;
+  }
+
+  ul#marcas {
+  }
+
+  ul#marcas li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+ 
+
+  #gire {
+    display: block;
+  }
+
+  #SCcontacto,
+  #SCqEs {
+    height: 70%;
+  }
+  #textoQueEs {
+    font-size: 16px;
+  }
+  #SCqEs {
+  }
+}
+
+/* diversos aparatos, tablets horizontal*/
+@media (min-width: 600px) and (max-width: 767px) and (min-height: 321px) and (max-height: 767px) {
+  #titulomf {
+    left: -20px;
+    bottom: -120px;
+    /* height: auto; */
+    top: auto;
+  }
+
+  #form1 {
+    margin-top: 0px !important;
+  }
+  #socialLinks {
+    right: 24%;
+    bottom: 42px;
+  }
+  #gire {
+    display: none;
+  }
+  #popupVideo iframe {
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+  }
+
+  #textoQueEs {
+    font-size: 16px;
+  }
+
+  #SCcontacto,
+  #SCqEs {
+    width: 50%;
+    left: -50px;
+  }
+  #detalle {
+    height: 40px;
+    margin-bottom: 0px;
+  }
+}

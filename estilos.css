@@ -74,7 +74,7 @@ ul#marcas {
   right: 4%;
   position: relative;
   border: 1px solid #ccc;
-  height: 250px;
+  /* height: max-content; */
   margin-bottom: 50px;
 }
 
@@ -1078,6 +1078,9 @@ p {
   top: 13%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
+#cerrar {
+  cursor: pointer;
+}
 
 #popupVideo a,
 #cerrarGaleria {
@@ -1604,12 +1607,10 @@ textarea {
 }
 
 @media (max-width: 1000px) {
-  
-.social {
-  width: 50px;
-  height: 50px;
-
-}
+  .social {
+    width: 50px;
+    height: 50px;
+  }
   #sliderHomenajes {
     height: 350px;
   }
@@ -1627,7 +1628,7 @@ textarea {
     width: 20%;
     margin: 10px;
     padding: 0px;
-    height: 20%;
+    /* height: 20%; */
   }
 
   p.epigrafe {
@@ -1697,10 +1698,10 @@ textarea {
   #form1 {
     /* background: none; */
     /* margin: 0px; */
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    bottom:25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
   }
 
   .titulosFormu {
@@ -1726,21 +1727,20 @@ textarea {
     background: black !important;
   }
 
-  #SCqEs
-  {
+  #SCqEs {
     display: inline-block;
 
     height: 90%;
     width: 100%;
   }
-   #SCcontacto{
-     position:absolute;
-     width: 200vw;
-     /* height: auto; */
-     left: -62vw;
-     /* transform: translateX(-50%); */
-     top: 2vh;
-   }
+  #SCcontacto {
+    position: absolute;
+    width: 200vw;
+    /* height: auto; */
+    left: -62vw;
+    /* transform: translateX(-50%); */
+    top: 2vh;
+  }
 
   .queEsSC {
     width: 100%;
@@ -1986,9 +1986,9 @@ textarea {
     font-size: 13px;
   }
   .scAlTel {
-    bottom:50px;
-    position:relative;
-        width: 139vw !important;
+    bottom: 50px;
+    position: relative;
+    width: 139vw !important;
     height: auto !important;
     margin: 0;
     padding: 0px !important;
@@ -2078,13 +2078,13 @@ textarea {
     /* top:-105px; */
   }
 
-    #SCcontacto {
-    width:140vw;
+  #SCcontacto {
+    width: 140vw;
     bottom: 60px;
     overflow: visible;
   }
-  
-  #SCqEs{
+
+  #SCqEs {
     display: none;
   }
 
@@ -2225,8 +2225,6 @@ textarea {
     margin-bottom: 5px;
     margin-top: 5px;
   }
-
- 
 
   #gire {
     display: block;
